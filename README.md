@@ -22,25 +22,15 @@ This was a learning experiment in reverse engineering and game memory manipulati
 ### Visuals
 - **ESP** — Box, skeleton, health bar, name, weapon, flags
 - **Bullet Tracers** — 3D tracer lines with fade-out
-- **Grenade Tracker** — Tracks active grenades on the map
 - **Sound ESP** — Visual indicators for gunshot sounds
 - **Hitmarker** — Customizable with sound, preview button
-- **Damage Numbers** — Floating damage text with kill highlighting
-- **Offscreen Arrows** — Edge arrows pointing to offscreen enemies
 - **Aim Aura** — 5 styles (Ring, Glow, Crosshair, Box, Orbit)
 - **Custom Crosshair** — Always-on crosshair with outline
 
 ### Interface
 - **Speed Overlay** — Real-time speed graph, fully customizable
 - **Status Panel** — Active module indicators
-- **Keybind Overlay** — Visual key press display
-- **Mode Overlay** — Legit/Rage indicator
-- **Bomb Timer** — C4 countdown tracker
 - **Customization** — Accent color picker, alignment modes, rounding, alpha, shadows, theme presets
-
-### Movement
-- **Bunny Hop** — Memory-based jump injection
-- **Anti-Flash** — Flashbang duration reduction
 
 ## TODO / Needs Fixing
 
@@ -92,4 +82,4 @@ dotnet build -c Release
 4. Press the menu toggle key (default: Insert)
 
 --
-Author of original 
+Author of original is - sweeperxz
