@@ -35,14 +35,11 @@ This was a learning experiment in reverse engineering and game memory manipulati
 The following features were implemented but might be buggy, incomplete, or broken due to game updates and AI hallucinations. They require manual fixing and proper testing:
 
 - [ ] **Bomb Timer** — Needs offset verification
-- [ ] **Keybind Overlay** — Dragging logic needs refinement
-- [ ] **Mode Overlay** — Positioning needs adjustment
 - [ ] **Grenade Tracker** — Entity list parsing needs fixing
 - [ ] **Offscreen Arrows** — Math needs verification
 - [ ] **Damage Numbers** — Health tracking needs optimization
 - [ ] **Seeded Trigger** — Needs proper weapon spread data from memory
 - [ ] **RCS** — Punch angle reading needs fixing
-- [ ] **Silent Aim** — Memory write timing is unreliable
 - [ ] **Bhop** — Jump offset might be outdated
 - [ ] **Anti-Flash** — Flash duration offset needs updating
 
