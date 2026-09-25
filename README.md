@@ -1,6 +1,4 @@
 # Cs2ExternalCheat
-Here's the updated README with the TODO section:
-
 ---
 
 # FullyExternalCS2
