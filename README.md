@@ -7,9 +7,9 @@ External cheat for Counter-Strike 2 written in C#.
 
 ## Disclaimer
 
-This project is **AI-generated code**. I used an AI assistant to write and debug the majority of this codebase. I do not guarantee it works correctly, safely, or at all. **I am not responsible for any bans, VAC detections, or consequences** resulting from the use of this software. Use at your own risk.
+This project is **AI-generated code**. **I am not responsible for any bans, VAC detections, or consequences** resulting from the use of this software. Use at your own risk.
 
-This was a learning experiment in reverse engineering and game memory manipulation. Nothing more.
+This was a learning experiment in reverse engineering and game memory manipulation. Educational purpose only.
 
 ## Features
 
@@ -50,9 +50,6 @@ The following features were implemented but might be buggy, incomplete, or broke
 - **Process.NET** — Memory read/write via `ReadProcessMemory` / `WriteProcessMemory`
 - **cs2-dumper** — Dynamic offset parsing from local dumper or GitHub
 
-## How It Works
-
-All features are **100% external**. No DLL injection, no hooks, no kernel drivers. The cheat reads game memory via Windows API and renders an transparent overlay window on top of the game.
 
 Offsets are parsed dynamically from `cs2-dumper` output (local or GitHub fallback). No hardcoded offsets.
 
@@ -60,8 +57,6 @@ Offsets are parsed dynamically from `cs2-dumper` output (local or GitHub fallbac
 
 - Windows 10/11
 - .NET 8 SDK
-- Counter-Strike 2
-- cs2-dumper (included in `Dumper/` folder)
 
 ## Build
 
