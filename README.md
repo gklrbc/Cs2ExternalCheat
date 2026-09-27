@@ -77,4 +77,4 @@ dotnet build -c Release
 4. Press the menu toggle key (default: Insert)
 
 --
-Author of original is - sweeperxz
+Original project is https://github.com/FrantisekSilhan/FullyExternalCS2
