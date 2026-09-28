@@ -1,5 +1,4 @@
-# Cs2ExternalCheat
----
+
 
 # FullyExternalCS2
 
